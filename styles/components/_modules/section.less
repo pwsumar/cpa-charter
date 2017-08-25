@@ -1,25 +1,121 @@
+.section-content {
+	padding: 10em 0;
+
+	&:focus {
+		outline: none;
+	}
+}
 .section-banner {
   position: relative;
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
   transform: translate3d(0px, 0px, 0px);
 }
-.section-content {
-  padding: 4em 0;
-}
-.section-footer {
-  padding-bottom: 2em;
+.section-menu-holder {
+	position: absolute;
+	bottom: 0;
+	width: 98%;
+    margin: auto;
+    left: 50%;
+    .translate(-50%,0);
+
+	.section-menu {
+	    background-color: #016eb6;
+	    padding: 1.5em;
+	    min-height: 141px;
+	    margin-right: 5px;
+	    margin-left: 5px;
+
+	    .menu-list {
+		    max-width: 200px;
+		    margin: auto;
+		}
+	}
+	.section-menu-text {
+		margin-top: 20px;
+
+		h3 {
+			color: @white;
+			margin: 0;
+    		font-family: @roboto_light;
+    		text-transform: none;
+    		font-size: 20px;
+		}
+	}
+	a {
+		display: block;
+
+		.icon-menu {
+			position: relative;
+		    top: 0;
+		    .transition(all .3s ease);
+		}
+
+		.section-menu-text {
+			position: relative;
+		    top: 0;
+		    .transition(all .3s ease);
+		}
+
+		&:hover {
+			.icon-menu {
+				top: 5px;
+			}
+			.section-menu-text {
+				top: -3px;
+			}
+		}
+	}
 }
 .section-header {
+	h1 {
+		position: relative;
+		padding-bottom: 20px;
+
+		&:before {
+			content: '';
+			height: 4px;
+			width: 50px;
+			background-color: #f9cc31;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			.translate(-50%, 0);
+		}
+	}
 	p {
-		color: #c5cbd2;
-		font-size: 16px;
-		font-family: @brand_med;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		margin-bottom: 0;
+		font-size: 20px;
 	}
-	h4 {
-		font-family: @brand_med;
+}
+.section-vm {
+    padding: 5em 0;
+}
+
+.section-mission {
+	position: relative;
+	height: 500px;
+
+	&:before {
+		content: ' ';
+	    height: 100%;
+	    width: 100%;
+	    background-color: #0070ba;
+	    position: absolute;
+	    top: 0;
+	    .opacity(0.98);
 	}
+}
+.section-mission-content {
+    background-color: @white;
+    margin: auto;
+    margin-top: -10em;
+
+    .section-vm {
+    	background-color: @white;
+    	border-top: 7px solid #f9cc31;
+    	.box-shadow(0px 0px 21px 6px rgba(0, 0, 0, 0.08));
+    }
+}
+.section-perf {
+	margin-top: 3em;
 }
