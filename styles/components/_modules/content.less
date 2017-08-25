@@ -1,0 +1,229 @@
+.content-common {
+  p {
+    max-width: 700px;
+    margin: 2.5em auto 4em;
+    line-height: 1.8;
+  }
+}
+.facts-container {
+  margin-top: 2em;
+}
+.icon-text {
+    float: left;
+    padding-left: 1em;
+
+    h3 {
+      font-size: 48px;
+      color: @white;
+    }
+}
+.facts-content {
+  margin-top: 15px;
+
+  p {
+    font-family: @raleway_bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: @white;
+    text-transform: uppercase;
+  }
+}
+
+.news-update {
+
+  .section-header {
+    margin-bottom: 50px;
+  }
+  a{
+    color: @black;
+    
+    .news-holder {
+      border: 1px solid #eee;
+
+        .news-update-img {
+            height: 220px;
+        }
+
+        .news-content {
+            padding: 40px 30px;
+
+            .news-head {
+              height: 60px;
+
+              h4 {
+                font-size: 20px;
+                font-family: @brand_med;
+              }
+            }
+
+            .news-subhead {
+              margin: 35px 0;
+              font-size: 11.39px;
+            }
+        }
+    }
+  }
+}
+
+.cebu-port-system {
+  position: relative;
+
+  &:before {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    background-color: #0070ba;
+    position: absolute;
+    top: 0;
+    .opacity(0.98);
+  }
+
+  .section-header {
+
+    h3 {
+      color: #fff;
+    }
+  }
+}
+
+.cebu-port-system-content {
+
+  .system-tabholder {
+
+    .tab-content{
+      color: @white;
+      line-height: 2;
+      font-size: 15px;
+        width: 40%;
+      top: 50%;
+      left: 0%;
+      position: absolute;
+      .translate(0, -50%);
+
+      h4 {
+        color: @white;
+        position: relative;
+        margin-bottom: 25px;
+
+        &:after {
+          content: '';
+          height: 2px;
+          width: 50px;
+          background-color: #f9cc31;
+          position: absolute;
+            bottom: -15px;
+            left: 0;
+        }
+      }
+      p {
+        margin-bottom: 40px;
+      }
+
+      .btn-holder {
+        .btn-common {
+          background-color: @white;
+          padding: 9px 45px;
+        }
+
+        span {
+          width: 45px;
+          height: 45px;
+          display: inline-block;
+          border: 1px solid white;
+          text-align: center;
+        }
+      }
+    }
+
+    &:hover {
+      .system-img {
+        .scale(1.03,1.03);
+      }
+    }
+  }
+}
+
+.system-img.bg-inline {
+  background-size: 100%;
+  height: 680px;
+  position: relative;
+  .transition(all .3s ease);
+
+  ul {
+    border-bottom: none;
+    li {
+        position: absolute;
+
+      &.sta-fe {
+        top: 9%;
+        right: 47.3%;
+      }
+
+      &.danao {
+          top: 41.5%;
+          right: 32%;
+      }
+
+      &.mandaue {
+        top: 47.5%;
+        right: 34%;
+      }
+
+      &.toledo {
+        top: 47%;
+        right: 55%;
+      }
+
+      &.cebu {
+        top: 50.1%;
+        right: 39%;
+      }
+
+      &.argao {
+        top: 70%;
+        right: 58%;
+      }
+
+      a {
+        position: absolute !important;
+        background: @white;
+        border-radius: 22px;
+        padding: 5px;
+        transition: all .3s ease;
+        
+        &:before {
+          content: '\f111';
+          position: absolute;
+          font-family: 'FontAwesome';
+          color: @white;
+            opacity: 0.302;
+            font-size: 21px;
+            top: -9px;
+          left: -4px;
+        }
+
+        &:hover, &:focus {
+          background: @yellow;
+          border-radius: 22px;
+          padding: 5px;
+        }
+      }
+      
+      &.active {
+
+        a, a:hover, a:focus {
+          background: @yellow;
+          border-radius: 22px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+.powered-text {
+    padding: 10px;
+
+    p {
+      font-size: 13px;
+    }
+}

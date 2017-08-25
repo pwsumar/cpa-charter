@@ -1,0 +1,38 @@
+.form-control{
+  border-radius: 0;
+  box-shadow: none;
+  height: initial;
+  font-family: @body-font;
+  border-color: #d6d6d6;
+  background: #fff;
+  margin: 0;
+  padding: 15px 20px;
+
+  &:focus {
+    border-color: @black;
+    box-shadow: none;
+  }
+}
+
+.form-control::-webkit-input-placeholder {color:#666666;}
+.form-control:-moz-placeholder {color:#666666;}
+.form-control::-moz-placeholder {color:#666666;}
+.form-control:-ms-input-placeholder {color:#666666;}
+
+textarea {
+  width: 100%;
+  min-height: 172px;
+  resize: none;
+  border-color: #d6d6d6;
+  color: #666666;
+  font-family: @body-font;
+  font-size: 14px;
+  padding: 15px 20px;
+  border-radius: 0;
+
+  &:focus {
+    outline: none;
+    border-color: @black;
+    box-shadow: none;
+  }
+}
