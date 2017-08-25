@@ -2049,10 +2049,10 @@
     <div class="row">
       <div class="col-md-6" style="background-color: #eceff1;">
         <div class="col-content-wrap">
-            <div class="section-header text-center animated fadeInRight">
+            <div class="section-header text-center animated fadeInLeft">
             <h3>APPLICATION FOR LEASE</br>(NEW &amp; RENEWAL) OF CPA PROPERTY</h3>
           </div>
-          <div class="content-common">
+          <div class="content-common animated fadeInLeft">
             <ul>
                 <li class="copy-block">
                     <p>Schedule of Availability of Service:</p>
