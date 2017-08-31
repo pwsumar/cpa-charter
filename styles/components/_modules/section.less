@@ -86,6 +86,25 @@
 	p {
 		font-size: 20px;
 	}
+	ul li {
+    	position: relative;
+
+    	&:before {
+    		content: '';
+		    background-color: #f8cb31;
+		    width: 15px;
+		    height: 15px;
+		    border-radius: 50%;
+		    position: absolute;
+    	}
+
+    	p {
+    		padding-left: 30px;
+		    margin: 0;
+		    line-height: initial;
+		    margin-bottom: 20px;
+    	}
+	}
 }
 .section-vm {
     padding: 5em 0;

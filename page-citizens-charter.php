@@ -10,86 +10,94 @@
             </div>
         </div>
     </div>
-</div>
-<!-- END BANNER SEECTION -->
-<!-- QUICK FACTS SECTION -->
-<div class="section-content bg-blue animatedParent animateOnce">
-<div class="animated fadeInUp">
-
-    <div class="content-title text-center text-white">
-        <h3>Quick Facts</h3>
-    </div>
-    <div class="container">
-        <div class="facts-container afterclear">
-            <div class="col-md-3">
-                <div class="facts-holder afterclear">
-                    <div class="facts-header fl-left">
-                        <div class="icon-img fl-left">
-                            <img src="images/icon1.png" alt="">
+    <div class="section-menu-holder afterclear">
+        <div class="col-md-2 p-0">
+            <a href="#vision">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-1.png" alt="">
                         </div>
-                        <div class="icon-text">
-                            <h3>311</h3>
+                        <div class="section-menu-text">
+                            <h3>Vision</h3>
                         </div>
-                    </div>
-                    <div class="facts-content text-center fl-left">
-                        <p>CRUISE SHIP VISITS FOR </p>
-                        <p>2015/16</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="facts-holder afterclear">
-                    <div class="facts-header fl-left">
-                        <div class="icon-img fl-left">
-                            <img src="images/icon2.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-2 p-0">
+            <a href="#mission">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-2.png" alt="">
                         </div>
-                        <div class="icon-text">
-                            <h3>5,684</h3>
+                        <div class="section-menu-text">
+                            <h3>Mission</h3>
                         </div>
-                    </div>
-                    <div class="facts-content text-center fl-left">
-                        <p>TRADE VESSEL VISITS FOR </p>
-                        <p>2015/16</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="facts-holder afterclear">
-                    <div class="facts-header fl-left">
-                        <div class="icon-img fl-left">
-                            <img src="images/icon3.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-2 p-0">
+            <a href="#performance-pledge">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-3.png" alt="">
                         </div>
-                        <div class="icon-text">
-                            <h3>6,013</h3>
+                        <div class="section-menu-text">
+                            <h3>Performance Pledge</h3>
                         </div>
-                    </div>
-                    <div class="facts-content text-center fl-left">
-                        <p>TOTAL VESSEL VISITS FOR </p>
-                        <p>2015/16</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="facts-holder afterclear">
-                    <div class="facts-header fl-left">
-                        <div class="icon-img fl-left">
-                            <img src="images/icon4.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-2 p-0">
+            <a href="">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-4.png" alt="">
                         </div>
-                        <div class="icon-text">
-                            <h3>500</h3>
+                        <div class="section-menu-text">
+                            <h3>Feedback & Redress Mechanisms </h3>
                         </div>
-                    </div>
-                    <div class="facts-content text-center fl-left">
-                        <p>dollar exchange rate for</p>
-                        <p>the week of july 9-15, 2017/16</p>
                     </div>
                 </div>
-            </div>
+            </a>
+        </div>
+        <div class="col-md-2 p-0">
+            <a href="">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-5.png" alt="">
+                        </div>
+                        <div class="section-menu-text">
+                            <h3>List of CPA Frontline Services</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>        
+        </div>
+        <div class="col-md-2 p-0">
+            <a href="">
+                <div class="section-menu">
+                    <div class="menu-list">
+                        <div class="icon-menu">
+                            <img src="images/icon-6.png" alt="">
+                        </div>
+                        <div class="section-menu-text">
+                            <h3>Feedback Form</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
-    </div>
 </div>
-<!-- END -->
+<!-- END BANNER SEECTION -->
 <!-- About Company -->
 <div class="section-content pd-10 section-with-table animatedParent animateOnce">
     <div class="container">

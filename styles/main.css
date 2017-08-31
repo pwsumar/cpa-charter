@@ -11088,7 +11088,7 @@ h6 {
   text-transform: uppercase;
 }
 h1 {
-  font-size: 70px;
+  font-size: 60px;
 }
 h2 {
   font-size: 60px;
@@ -11910,6 +11910,23 @@ textarea:focus {
 .section-header p {
   font-size: 20px;
 }
+.section-header ul li {
+  position: relative;
+}
+.section-header ul li:before {
+  content: '';
+  background-color: #f8cb31;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+}
+.section-header ul li p {
+  padding-left: 30px;
+  margin: 0;
+  line-height: initial;
+  margin-bottom: 20px;
+}
 .section-vm {
   padding: 5em 0;
 }
@@ -12108,6 +12125,9 @@ textarea:focus {
   padding: 0;
   width: 100%;
 }
+.tab-pane:focus {
+  outline: none;
+}
 .section-entrance-vessel {
   background-repeat: no-repeat;
   background-size: cover;
@@ -12123,9 +12143,10 @@ textarea:focus {
   background: rgba(0, 112, 186, 0.9);
   top: 0;
 }
-.section-entrance-vessel .section-header h3 {
+.section-entrance-vessel .section-header h1 {
   color: #fff;
-  margin: 0;
+  max-width: 1100px;
+  margin: auto;
 }
 .section-entrance-vessel .content-common {
   margin: 4em 0 0;
